@@ -1,13 +1,16 @@
+
 {
   "name": "personal-porfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://noeleon21.github.io/personal-porfolio",
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -26,6 +29,7 @@
     "depcheck": "^1.4.7",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4.1.11",
     "typescript": "^5"
   }
