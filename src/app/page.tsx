@@ -2,13 +2,12 @@ import Header from '@/components/ui/Header'
 import Footer from '@/Sections/Footer'
 import ProjectCard from '@/components/ui/Projectcard'
 import Experience from '@/Sections/Experience'
-import Navbar from '@/components/ui/navbar'
 import Project from '@/Sections/Project'
 import About from '@/Sections/About'
 import Hero from '@/Sections/Hero'
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#121212] min-h-screen">
       <Header />
      <main className="max-w-7xl h-full mx-auto px-6 py-12 bg-[#121212] text-white">
 

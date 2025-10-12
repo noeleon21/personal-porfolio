@@ -38,7 +38,7 @@ export default function Header() {
           Noel Gens
         </a>
         {/* Navigation */}
-        <nav className="hidden md:flex gap-8 items-center text-base">
+        <nav className="hidden md:flex gap-8 items-center text-base text-white">
           <a href="#about" className="hover:text-sky-400 transition">About</a>
           <a href="#projects" className="hover:text-sky-400 transition">Projects</a>
           <a href="#experience" className="hover:text-sky-400 transition">Experience</a>

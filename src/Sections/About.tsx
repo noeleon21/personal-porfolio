@@ -5,7 +5,7 @@ export default function About(){
     <div className="md:w-2/3 bg-gradient-to-br from-sky-900 to-indigo-900 rounded-xl shadow-lg p-8 mb-8 md:mb-0">
       <h2 className="text-3xl font-extrabold text-sky-300 mb-4">About Me</h2>
       <p className="text-lg text-white leading-relaxed">
-        Cybersecurity Graduate with experience gained through internships in penetration testing, cloud computing, and web development.<br />
+        Cybersecurity Graduate with experience gained through internships in penetration testing, cloud computing, and web development.
         Currently working as a Rapid Global Administrator at Thales, supporting subcontractor management and compliance operations.
       </p>
     </div>
@@ -16,7 +16,7 @@ export default function About(){
         {[
           "HTML 5", "JavaScript", "MySQL", "Node.js", "Tailwind CSS", "Git",
           "CSS", "Python", "Github", "Linux", "AWS", "Github Actions",
-          "Docker", "Terraform", "Kubernetes", "Google Cloud Platform"
+          "Docker", "Terraform", "Kubernetes", "Google Cloud Platform", "Penetration Testing", "Windows Server", "Postman", "Networking"
         ].map(skill => (
           <span
             key={skill}
