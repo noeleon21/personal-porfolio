@@ -16,7 +16,7 @@ export default function About(){
         {[
           "HTML 5", "JavaScript", "MySQL", "Node.js", "Tailwind CSS", "Git",
           "CSS", "Python", "Github", "Linux", "AWS", "Github Actions",
-          "Docker", "Terraform", "Kubernetes", "Google Cloud Platform", "Penetration Testing", "Windows Server", "Postman", "Networking", "React", "CPanel", "Azure"
+          "Docker", "Terraform", "Kubernetes", "Google Cloud Platform", "Penetration Testing", "Windows Server", "Postman", "Networking", "React", "CPanel", "Azure" , "Vagrant", "Ansible"
         ].map(skill => (
           <span
             key={skill}
