@@ -31,6 +31,14 @@ Establish secure access from the EC2 instance to an RDS database instance. Imple
          
           liveUrl="https://prettyhomes.com.au/"
         />
+         <ProjectCard
+          title="Terraform ansible aws project"
+          tags={["AWS", "Terraform", "Linux", "SSM", "OIDC", "GithubActions", "Ansible"]}
+          description="How do we provision, access, and configure EC2 instances in a secure, repeatable, and auditable way without long-lived credentials or SSH access?
+
+This is a real enterprise problem, commonly faced by organisations that need to balance automation speed with strong security controls. Traditional approaches relying on manual configuration, static credentials, and SSH access introduce significant security and operational risks."
+          repoUrl="https://github.com/noeleon21/Cloud_Security_V2"
+        />
       </div>
     </div>
   )
