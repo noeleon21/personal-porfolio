@@ -39,12 +39,7 @@ Establish secure access from the EC2 instance to an RDS database instance. Imple
 This is a real enterprise problem, commonly faced by organisations that need to balance automation speed with strong security controls. Traditional approaches relying on manual configuration, static credentials, and SSH access introduce significant security and operational risks."
           repoUrl="https://github.com/noeleon21/Terraform-ansible-aws-project"
         />
-             <ProjectCard
-          title="Azure Security Project"
-          tags={["Azure", "Terraform", "Linux","GithubActions", "EntraId", "AzureAD","VirtualMachines"]}
-          description="This project provides a comprehensive Infrastructure as Code (IaC) solution for deploying a secure cloud infrastructure on Microsoft Azure using Terraform. It implements industry-standard security best practices and cloud security controls."
-          repoUrl="https://github.com/noeleon21/Azure_Security_project"
-        />
+      
       </div>
     </div>
   )
